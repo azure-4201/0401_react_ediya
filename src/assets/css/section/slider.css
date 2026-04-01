@@ -1,0 +1,95 @@
+.container {
+  width: 1160px;
+  margin: 0 auto;
+}
+.slider_img {
+  width: 100%;
+  height: 580px;
+}
+.s1 {
+  background: url(../../img/main_banner_1.jpg) center top;
+}
+.s2 {
+  background: url(../../img/main_banner_2.jpg) center top;
+}
+.s3 {
+  background: url(../../img/main_banner_3.jpg) center top;
+}
+.slider_txt {
+  height: inherit;
+  box-sizing: border-box;
+  padding: 100px 0;
+}
+.slider_txt span {
+  font-family: "GMarketSans";
+  color: #243c84;
+  background: #fff;
+  padding: 1px 14px 2px 14px;
+  border-radius: 30px;
+  display: inline-block;
+  margin-bottom: 25px;
+  margin-left: 5px;
+}
+.slider_txt h3 {
+  font-family: "GMarketSans";
+  color: #fff;
+  font-size: 100px;
+  font-weight: 500;
+  line-height: 1;
+}
+.slider_txt p {
+  font-family: "GMarketSans";
+  color: #fff;
+  font-size: 24px;
+  font-weight: 300;
+  width: 443px;
+  line-height: 133%;
+  padding: 25px 0;
+}
+
+.slider_txt .btn {
+  margin-top: 45px;
+}
+.slider_txt .btn a {
+  display: inline-block;
+  color: #fff;
+  padding: 11px 50px;
+  box-sizing: border-box;
+  border: 2px solid #fff;
+}
+.slider_txt .btn a:hover {
+  color: #243c84;
+  background: #fff;
+}
+.slider_txt .btn a.indigo {
+  color: #243c84;
+  background: #fff;
+  margin-left: 20px;
+}
+.slider_txt .btn a.indigo:hover {
+  color: #fff;
+  background: #243c84;
+}
+
+.txtbox_2 {
+  display: none;
+}
+.txtbox_3 {
+  display: none;
+}
+
+/* swiper */
+.swiper-button-next,
+.swiper-button-prev {
+  --swiper-theme-color: #fff;
+}
+.swiper-button-next,
+.swiper-button-prev {
+  --swiper-navigation-size: 50px;
+}
+.swiper-pagination-bullet {
+  --swiper-theme-color: #fff;
+  --swiper-pagination-bullet-horizontal-gap: 3px;
+  --swiper-pagination-bullet-height: 10px;
+  --swiper-pagination-bullet-width: 10px;
+}

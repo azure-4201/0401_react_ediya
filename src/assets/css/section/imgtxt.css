@@ -1,0 +1,113 @@
+/* image_txt_type */
+.imagetxt_inner {
+  display: flex;
+  gap: 20px;
+}
+.imagetxt_txt {
+  flex: 1;
+  height: 500px;
+}
+.imagetxt_img {
+  flex: 2.8;
+  height: 500px;
+}
+.imagetxt_txt .small {
+  text-decoration: underline;
+  margin-bottom: 20px;
+  color: #666;
+}
+.imagetxt_txt .title {
+  font-size: 50px;
+  font-weight: 300px;
+  word-break: keep-all;
+  line-height: 1.4;
+  margin-bottom: 20px;
+  color: #202020;
+}
+.imagetxt_txt .blue {
+  color: #243c84;
+}
+
+.imagetxt_txt .desc {
+  font-size: 18px;
+  font-weight: 300;
+  line-height: 1.5;
+  margin-bottom: 10px;
+  color: #202020;
+}
+.imagetxt_txt > .list {
+  font-size: 18px;
+  font-weight: 300;
+  line-height: 1.6;
+}
+.imagetxt_txt > .list li {
+  padding-left: 20px;
+  position: relative;
+}
+.imagetxt_txt > .list li::before {
+  content: "";
+  width: 5px;
+  height: 5px;
+  background-color: #202020;
+  border-radius: 50%;
+  display: block;
+  position: absolute;
+  top: 10px;
+  left: 5px;
+}
+.imagetxt_txt > .list li a {
+  color: #202020;
+}
+.imagetxt_txt > .list li a:hover {
+  color: #243c84;
+}
+.img_capt {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+.img_capt li {
+  flex: 1;
+  height: 240px;
+  background-color: #243c84;
+  align-content: end;
+  padding: 20px;
+  box-sizing: border-box;
+  border-radius: 10px;
+}
+.capt1 li:nth-child(1) {
+  background: url(../../img/service_1.png) no-repeat center/cover;
+}
+.capt1 li:nth-child(2) {
+  background: url(../../img/service_2.png) no-repeat center/cover;
+}
+.capt1 li:nth-child(3) {
+  background: url(../../img/service_3.png) no-repeat center/cover;
+}
+.capt2 li:nth-child(1) {
+  background: url(../../img/service_4.png) no-repeat center/cover;
+}
+.capt2 li:nth-child(2) {
+  background: url(../../img/service_5.png) no-repeat center/cover;
+}
+.capt2 li:nth-child(3) {
+  background: url(../../img/service_6.png) no-repeat center/cover;
+}
+.img_capt li a {
+  display: inline-block;
+  color: #243c84;
+  padding: 10px 30px;
+  background: #fff;
+  border-radius: 30px;
+}
+.img_capt li a:hover {
+  color: #fff;
+  background: #243c84;
+}
+.capt1 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+.capt2 {
+  text-align: center;
+}

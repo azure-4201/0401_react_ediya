@@ -1,0 +1,65 @@
+/* common */
+/* skip */
+#skip {
+  position: relative;
+}
+#skip a {
+  background: #000;
+  color: #fff;
+  position: absolute;
+  top: 5px;
+  left: -400px;
+}
+#skip a:active,
+#skip a:focus {
+  left: 5px;
+}
+
+/* container */
+.container {
+  width: 1160px;
+  margin: 0 auto;
+}
+
+/* section */
+.section {
+  padding: 120px 0;
+}
+.section > h2 {
+  font-size: 50px;
+  text-align: center;
+  color: #202020;
+  margin-bottom: 20px;
+}
+.section > h2 em {
+  font-weight: 700;
+}
+.section > p {
+  font-size: 20px;
+  font-weight: 300;
+  text-align: center;
+  color: #202020;
+  margin-bottom: 70px;
+}
+.section > span {
+  display: block;
+  text-align: center;
+  text-decoration: underline;
+  margin-bottom: 16px;
+  color: #666;
+  font-weight: 300;
+}
+
+/* font */
+.blue {
+  color: #243c84;
+}
+.nexon1 {
+  font-family: "NexonLv1Gothic";
+}
+.nexon2 {
+  font-family: "NexonLv2Gothic";
+}
+.gmarket {
+  font-family: "GMarketSans";
+}

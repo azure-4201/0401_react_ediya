@@ -1,0 +1,58 @@
+/* image_type */
+#image_type {
+}
+.image_inner {
+  display: flex;
+  justify-content: space-between;
+}
+.image {
+  width: 49%;
+  height: 370px;
+  color: #260f11;
+  padding: 20px 40px;
+  box-sizing: border-box;
+  align-content: end;
+}
+.image.img1 {
+  background: url(../../img/manu_1.jpg) no-repeat center / cover;
+}
+.image.img2 {
+  background: url(../../img/manu_2.jpg) no-repeat center / cover;
+}
+.image_title {
+  font-size: 32px;
+}
+.image_desc1 {
+  line-height: 140%;
+  padding: 10px 80px 0 0;
+
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  -webkit-line-clamp: 2;
+}
+.image_desc2 {
+  line-height: 140%;
+  padding: 0 80px 10px 0;
+
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  -webkit-line-clamp: 2;
+}
+.image_btn {
+  color: #fff;
+  line-height: 140%;
+  font-weight: 300;
+  padding: 8px 20px;
+  box-sizing: border-box;
+  background: #260f11;
+  display: inline-block;
+}
+.image_btn.indi {
+  background: #4b1e22;
+}
+.image_btn:hover {
+  color: #fff;
+  background: #243c84;
+}
