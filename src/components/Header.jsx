@@ -8,7 +8,7 @@ const Header = () => {
       <div className="header_inner">
         <div className="logo">
           <a href="#">
-            EDIYA <em>coffee</em>
+            EDIYA AA <em>coffee</em>
           </a>
         </div>
         <div className="header_menu">
